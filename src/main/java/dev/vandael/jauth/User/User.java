@@ -1,4 +1,4 @@
-package dev.vandael.jauth;
+package dev.vandael.jauth.User;
 
 import java.text.MessageFormat;
 

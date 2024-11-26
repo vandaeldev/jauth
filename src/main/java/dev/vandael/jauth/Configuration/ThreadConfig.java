@@ -1,4 +1,4 @@
-package dev.vandael.jauth;
+package dev.vandael.jauth.Configuration;
 
 import java.util.concurrent.Executors;
 
