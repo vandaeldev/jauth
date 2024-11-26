@@ -18,7 +18,7 @@ public class SecurityConfig {
   @Bean
   public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
     return http.httpBasic(httpBasic -> httpBasic.disable()).csrf(csrf -> csrf.disable())
-        .formLogin(formLogin -> formLogin.disable())
+        .formLogin(formLogin -> formLogin.disable()).sessionManagement(session -> session.disable())
         .addFilterAt(authenticationFilter, UsernamePasswordAuthenticationFilter.class).build();
   }
 }
