@@ -1,0 +1,14 @@
+*gradle
+!build.gradle
+!settings.gradle
+.vscode
+bin
+build
+keys
+*.md
+bruno.json
+.git*
+*.bat
+compose.yaml
+Dockerfile
+.dockerignore
